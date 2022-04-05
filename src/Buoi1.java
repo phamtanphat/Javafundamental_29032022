@@ -97,5 +97,16 @@ public class Buoi1 {
         // Nếu a == 0 ; 0;
         // Nếu a < 0 ; -1;
 
+        int a = -5;
+
+        if (a > 0){
+            System.out.println("1");
+        }else if(a == 0){
+            System.out.println("0");
+        }else {
+            System.out.println("-1");
+        }
+
+
     }
 }
