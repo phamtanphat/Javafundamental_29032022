@@ -63,23 +63,39 @@ public class Buoi1 {
 //        System.out.println("Result : " + result);
 
 //        4 Câu điều kiện
-        // Nhiều trường hợp xảy ra
-        int month = 5;
-        if( month == 1){
+//        Nhiều trường hợp xảy ra
+//        int month = 5;
+//        if( month == 1){
+//            //statement
+//            System.out.println();
+//            System.out.println();
+//        } else if(month == 2){
+//
+//        }else {
+//
+//        }
+//
+//        boolean isMale = false;
+//        // Chỉ có 2 trường hợp
+//        if (isMale == true){
+//        // nếu trường hợp là true sẽ viết code dưới đây
+//        }else{
+//        // nếu khác trường hợp true sẽ viết code dưới đây
+//
+//        }
+        // Toán tử so sánh
+        // == : so sánh bằng
+        // < : so sánh bé hơn
+        // > : so sánh lớn hơn
+        // <= : so sánh bé hơn hoặc bằng
+        // >= :so sánh lớn hơn hoặc bằng
+        // && : so sánh và (And)
+        // || : so sánh hoặc (or)
 
-        }else if(month == 2){
+        // So sánh a
+        // Nếu a > 0 : 1;
+        // Nếu a == 0 ; 0;
+        // Nếu a < 0 ; -1;
 
-        }else {
-
-        }
-
-        boolean isMale = false;
-        // Chỉ có 2 trường hợp
-        if (isMale == true){
-        // nếu trường hợp là true sẽ viết code dưới đây
-        }else{
-        // nếu khác trường hợp true sẽ viết code dưới đây
-
-        }
     }
 }
