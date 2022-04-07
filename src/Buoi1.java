@@ -97,16 +97,49 @@ public class Buoi1 {
         // Nếu a == 0 ; 0;
         // Nếu a < 0 ; -1;
 
-        int a = -5;
+//        int a = -5;
+//
+//        if (a > 0){
+//            System.out.println("1");
+//        }else if(a == 0){
+//            System.out.println("0");
+//        }else {
+//            System.out.println("-1");
+//        }
 
-        if (a > 0){
-            System.out.println("1");
-        }else if(a == 0){
-            System.out.println("0");
-        }else {
-            System.out.println("-1");
+//        5 Câu điều kiện switch case
+
+        int month = 5;
+        switch (month) {
+            case 1:
+                System.out.println("Phần mềm xuất kết quả");
+                System.out.println("Quý 1");
+                break;
+            case 2:
+                System.out.println("Phần mềm xuất kết quả");
+                System.out.println("Quý 1");
+                break;
+            case 3:
+                System.out.println("Phần mềm xuất kết quả");
+                System.out.println("Quý 1");
+                break;
+            case 4:
+                System.out.println("Phần mềm xuất kết quả");
+                System.out.println("Quý 2");
+                break;
+            case 5:
+                System.out.println("Phần mềm xuất kết quả");
+                System.out.println("Quý 2");
+                break;
+            case 6:
+                System.out.println("Phần mềm xuất kết quả");
+                System.out.println("Quý 2");
+                break;
+            default:
+                System.out.println("Phần mềm xuất kết quả");
+                System.out.println("Giá trị nhập vào không chính xác");
+                break;
         }
-
 
     }
 }
