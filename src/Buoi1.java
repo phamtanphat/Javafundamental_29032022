@@ -131,43 +131,52 @@ public class Buoi1 {
 //                break;
 //        }
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Mời bạn nhập chiều cao(kg) : ");
-        String height = scanner.nextLine();
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Mời bạn nhập chiều cao(kg) : ");
+//        String height = scanner.nextLine();
+//
+//        System.out.print("Mời bạn nhập cân nặng(m) : ");
+//        String weight = scanner.nextLine();
+//
+//
+//        // chuyển kiểu dữ liệu
+//        // convert type
+//        float numHeight = Float.parseFloat(height);
+//        float numWeight = Float.parseFloat(weight);
+//
+//        // tính bmi
+//
+//        float bmi = numWeight / (numHeight * numHeight);
+//
+//        String outPut = "";
+//        if (bmi < 16){
+//            outPut = "Gầy chế độ 3";
+//        }else if (bmi < 17){
+//            outPut = "Gầy chế độ 2";
+//        }else if (bmi < 18.5){
+//            outPut = "Gầy chế độ 1";
+//        }else if (bmi < 25){
+//            outPut = "Bình thường";
+//        }else if (bmi < 30){
+//            outPut = "Thừa cân";
+//        }else if (bmi < 35){
+//            outPut = "Béo phì độ 1";
+//        }else if (bmi < 40){
+//            outPut = "Béo phì độ 2";
+//        }else {
+//            outPut = "Béo phì độ 3";
+//        }
+//        System.out.println("Xuất chỉ số cơ thể : " + bmi);
+//        System.out.println("Bạn đang " + outPut);
 
-        System.out.print("Mời bạn nhập cân nặng(m) : ");
-        String weight = scanner.nextLine();
+        // Tính năm nhuận
 
+        // Mảng (Array) : được lưu trữ ở 1 nơi và không thể thay đổi kích thước được
+        // Cách 1 : Khởi tạo mảng nhưng chỉ biết kích thước
 
-        // chuyển kiểu dữ liệu
-        // convert type
-        float numHeight = Float.parseFloat(height);
-        float numWeight = Float.parseFloat(weight);
+        // Array integer
+        int[] arrStudents = new int[100];
 
-        // tính bmi
-
-        float bmi = numWeight / (numHeight * numHeight);
-
-        String outPut = "";
-        if (bmi < 16){
-            outPut = "Gầy chế độ 3";
-        }else if (bmi < 17){
-            outPut = "Gầy chế độ 2";
-        }else if (bmi < 18.5){
-            outPut = "Gầy chế độ 1";
-        }else if (bmi < 25){
-            outPut = "Bình thường";
-        }else if (bmi < 30){
-            outPut = "Thừa cân";
-        }else if (bmi < 35){
-            outPut = "Béo phì độ 1";
-        }else if (bmi < 40){
-            outPut = "Béo phì độ 2";
-        }else {
-            outPut = "Béo phì độ 3";
-        }
-        System.out.println("Xuất chỉ số cơ thể : " + bmi);
-        System.out.println("Bạn đang " + outPut);
 
     }
 }
