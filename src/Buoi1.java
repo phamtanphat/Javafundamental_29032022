@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Buoi1 {
 
     // method , function ==  Phương thức
@@ -109,37 +111,63 @@ public class Buoi1 {
 
 //        5 Câu điều kiện switch case
 
-        int month = 5;
-        switch (month) {
-            case 1:
-                System.out.println("Phần mềm xuất kết quả");
-                System.out.println("Quý 1");
-                break;
-            case 2:
-                System.out.println("Phần mềm xuất kết quả");
-                System.out.println("Quý 1");
-                break;
-            case 3:
-                System.out.println("Phần mềm xuất kết quả");
-                System.out.println("Quý 1");
-                break;
-            case 4:
-                System.out.println("Phần mềm xuất kết quả");
-                System.out.println("Quý 2");
-                break;
-            case 5:
-                System.out.println("Phần mềm xuất kết quả");
-                System.out.println("Quý 2");
-                break;
-            case 6:
-                System.out.println("Phần mềm xuất kết quả");
-                System.out.println("Quý 2");
-                break;
-            default:
-                System.out.println("Phần mềm xuất kết quả");
-                System.out.println("Giá trị nhập vào không chính xác");
-                break;
+//        int month = 5;
+//        switch (month) {
+//            case 1:
+//            case 2:
+//            case 3:
+//                System.out.println("Phần mềm xuất kết quả");
+//                System.out.println("Quý 1");
+//                break;
+//            case 4:
+//            case 5:
+//            case 6:
+//                System.out.println("Phần mềm xuất kết quả");
+//                System.out.println("Quý 2");
+//                break;
+//            default:
+//                System.out.println("Phần mềm xuất kết quả");
+//                System.out.println("Giá trị nhập vào không chính xác");
+//                break;
+//        }
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Mời bạn nhập chiều cao(kg) : ");
+        String height = scanner.nextLine();
+
+        System.out.print("Mời bạn nhập cân nặng(m) : ");
+        String weight = scanner.nextLine();
+
+
+        // chuyển kiểu dữ liệu
+        // convert type
+        float numHeight = Float.parseFloat(height);
+        float numWeight = Float.parseFloat(weight);
+
+        // tính bmi
+
+        float bmi = numWeight / (numHeight * numHeight);
+
+        String outPut = "";
+        if (bmi < 16){
+            outPut = "Gầy chế độ 3";
+        }else if (bmi < 17){
+            outPut = "Gầy chế độ 2";
+        }else if (bmi < 18.5){
+            outPut = "Gầy chế độ 1";
+        }else if (bmi < 25){
+            outPut = "Bình thường";
+        }else if (bmi < 30){
+            outPut = "Thừa cân";
+        }else if (bmi < 35){
+            outPut = "Béo phì độ 1";
+        }else if (bmi < 40){
+            outPut = "Béo phì độ 2";
+        }else {
+            outPut = "Béo phì độ 3";
         }
+        System.out.println("Xuất chỉ số cơ thể : " + bmi);
+        System.out.println("Bạn đang " + outPut);
 
     }
 }
