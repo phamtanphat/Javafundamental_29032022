@@ -209,5 +209,24 @@ public class Buoi1 {
 //        }
 //        System.out.println("Tiếp tục chạy");
 
+        // Tính số nguyên tố
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhập vào con số bất kỳ : ");
+
+        int number = scanner.nextInt();
+
+        if (number < 2){
+            System.out.println("Không phải là số nguyên tố");
+            return;
+        }
+
+        for (int i = 2; i < number ; i++) {
+            if (number % i == 0){
+                System.out.println("Không phải là số nguyên tố");
+                return;
+            }
+        }
+        System.out.println("Số " + number + " là số nguyên tố");
     }
 }
