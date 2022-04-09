@@ -175,8 +175,39 @@ public class Buoi1 {
         // Cách 1 : Khởi tạo mảng nhưng chỉ biết kích thước
 
         // Array integer
-        int[] arrStudents = new int[100];
+        // 1
+        // int[] arrStudents = new int[100];
 
+        // 2
+//        String[] arrStudents = {"Tèo","Tí","Tủn"};
+
+        // Lấy dữ liệu từ mảng
+//        arrStudents[0] = "Hoa";
+//        System.out.println("Phần tử 1 : " + arrStudents[0]);
+
+        // 6 Vòng lặp for
+
+//        for (int i = 0 ; i <= 10 ; i++){
+//            System.out.println(i);
+//        }
+
+        // Sử dụng vòng lặp chạy từ 1 - 100
+        // In ra số chẳn
+//        for (int i = 100 ; i >= 1 ; i--){
+//            if(i % 2 == 0){
+//                System.out.println(i);
+//            }
+//        }
+
+//        String[] arrNames = {"Toan", "Hoa", "Ngoc", "Lan", "Tuan", "Tien", "Thai", "Vu", "Son"};
+//
+//        for (int i = 0; i < arrNames.length; i++) {
+//            if (arrNames[i] == "Hoa"){
+//                return;
+//            }
+//            System.out.println(arrNames[i]);
+//        }
+//        System.out.println("Tiếp tục chạy");
 
     }
 }
