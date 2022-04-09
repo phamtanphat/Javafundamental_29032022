@@ -211,22 +211,33 @@ public class Buoi1 {
 
         // Tính số nguyên tố
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Nhập vào con số bất kỳ : ");
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Nhập vào con số bất kỳ : ");
+//
+//        int number = scanner.nextInt();
+//
+//        if (number < 2){
+//            System.out.println("Không phải là số nguyên tố");
+//            return;
+//        }
+//
+//        for (int i = 2; i < number ; i++) {
+//            if (number % i == 0){
+//                System.out.println("Không phải là số nguyên tố");
+//                return;
+//            }
+//        }
+//        System.out.println("Số " + number + " là số nguyên tố");
 
-        int number = scanner.nextInt();
+        // 7 Vòng lặp while
 
-        if (number < 2){
-            System.out.println("Không phải là số nguyên tố");
-            return;
-        }
+//        int a = 5;
+//
+//        do {
+//            System.out.println("Xử lý");
+//        }while (a > 5);
 
-        for (int i = 2; i < number ; i++) {
-            if (number % i == 0){
-                System.out.println("Không phải là số nguyên tố");
-                return;
-            }
-        }
-        System.out.println("Số " + number + " là số nguyên tố");
+
+
     }
 }
