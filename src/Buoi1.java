@@ -237,7 +237,38 @@ public class Buoi1 {
 //            System.out.println("Xử lý");
 //        }while (a > 5);
 
+        // 5 tính chất
+        // Tính đóng gói
+        // Tính đa hình
+        // Tính trườu tượng
+        // Tính kế thừa
+        // Quan hệ hash - A
+        // class và object
 
 
+        // Truyền tham trị chỉ dùng cho kiểu nguyên thủy
+//        int a = 5;
+//        int b = 10;
+//
+//        a = b;
+//
+//        b = 15;
+//        System.out.println("A " + a);
+//        System.out.println("B " + b);
+
+        //Truyền tham chiếu chỉ thấy khi sử dụng cho kiểu đối tượng
+        Animal meo1 = new Animal("Mi mi",1.2f);
+
+        System.out.println("Name " + meo1.name);
+        System.out.println("Weight " + meo1.weight);
     }
+    // Cách viết method , function
+    // 1 : Phạm vi hoạt động (Access modifier)
+    // 2 : Giá trị trả về
+    // 3 : Tên
+    // 4 : Tham số truyền vào
+
+//    public void tinhTong(int a, int b) {
+//        System.out.println(a + b);
+//    }
 }
