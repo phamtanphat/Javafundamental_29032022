@@ -257,10 +257,16 @@ public class Buoi1 {
 //        System.out.println("B " + b);
 
         //Truyền tham chiếu chỉ thấy khi sử dụng cho kiểu đối tượng
-        Animal meo1 = new Animal("Mi mi",1.2f);
+//        Animal meo1 = new Animal("Mi mi",1.2f);
+//        meo1.showInfo();
 
-        System.out.println("Name " + meo1.name);
-        System.out.println("Weight " + meo1.weight);
+        // Tính đóng gói : phạm vi hoạt động - access modifier
+        // public
+        // private
+        // protected
+
+        Animal meo1 = new Animal("Mi mi",1.2f);
+        meo1.showInfo();
     }
     // Cách viết method , function
     // 1 : Phạm vi hoạt động (Access modifier)
@@ -271,4 +277,6 @@ public class Buoi1 {
 //    public void tinhTong(int a, int b) {
 //        System.out.println(a + b);
 //    }
+
+
 }
