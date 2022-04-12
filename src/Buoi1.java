@@ -265,8 +265,11 @@ public class Buoi1 {
         // private
         // protected
 
-        Animal meo1 = new Animal("Mi mi",1.2f);
-        meo1.showInfo();
+//        Animal meo1 = new Animal("Mi mi",1.2f);
+//        meo1.showInfo();
+
+        Cat cat = new Cat("Mi mi" , 1.2f);
+        cat.showInfo();
     }
     // Cách viết method , function
     // 1 : Phạm vi hoạt động (Access modifier)
