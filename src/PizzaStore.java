@@ -1,6 +1,6 @@
 public class PizzaStore {
 
-    public void orderPizza(Pizza pizza){
+    public static void orderPizza(Pizza pizza){
         pizza.prepare();
         pizza.bake();
         pizza.cut();

@@ -273,8 +273,9 @@ public class Buoi1 {
 
 //        show("Hello");
 
-        PizzaStore pizzaStore = new PizzaStore();
-        pizzaStore.orderPizza(new PizzaCheese("Pizza cheese"));
+        PizzaStore.orderPizza(new PizzaCheese("Pizza cheese"));
+
+
     }
     // Cách viết method , function
     // 1 : Phạm vi hoạt động (Access modifier)
