@@ -268,8 +268,10 @@ public class Buoi1 {
 //        Animal meo1 = new Animal("Mi mi",1.2f);
 //        meo1.showInfo();
 
-        Cat cat = new Cat("Mi mi" , 1.2f);
-        cat.showInfo();
+//        Cat cat = new Cat("Mi mi" , 1.2f);
+//        cat.showInfo();
+
+        show("Hello");
     }
     // Cách viết method , function
     // 1 : Phạm vi hoạt động (Access modifier)
@@ -281,5 +283,13 @@ public class Buoi1 {
 //        System.out.println(a + b);
 //    }
 
+    // nạp chồng phương thức : overload
+    public static void show(String message){
+        System.out.println(message);
+    }
+
+    public static void show(int message){
+        System.out.println(message);
+    }
 
 }

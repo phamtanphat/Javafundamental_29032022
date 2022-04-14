@@ -4,4 +4,10 @@ public class Cat extends Animal{
     public Cat(String name, float weight) {
         super(name,weight);
     }
+
+    @Override
+    public void showInfo() {
+        super.showInfo();
+        System.out.println("Color : Grey");
+    }
 }
