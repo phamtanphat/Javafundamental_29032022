@@ -271,7 +271,10 @@ public class Buoi1 {
 //        Cat cat = new Cat("Mi mi" , 1.2f);
 //        cat.showInfo();
 
-        show("Hello");
+//        show("Hello");
+
+        PizzaStore pizzaStore = new PizzaStore();
+        pizzaStore.orderPizza(new PizzaCheese("Pizza cheese"));
     }
     // Cách viết method , function
     // 1 : Phạm vi hoạt động (Access modifier)
@@ -284,12 +287,12 @@ public class Buoi1 {
 //    }
 
     // nạp chồng phương thức : overload
-    public static void show(String message){
-        System.out.println(message);
-    }
-
-    public static void show(int message){
-        System.out.println(message);
-    }
+//    public static void show(String message){
+//        System.out.println(message);
+//    }
+//
+//    public static void show(int message){
+//        System.out.println(message);
+//    }
 
 }

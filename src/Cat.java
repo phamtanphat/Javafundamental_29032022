@@ -5,6 +5,7 @@ public class Cat extends Animal{
         super(name,weight);
     }
 
+    //annotation : chú thích
     @Override
     public void showInfo() {
         super.showInfo();
